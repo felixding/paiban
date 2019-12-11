@@ -17,4 +17,4 @@
   text = text.replace(p1, '$1$2').replace(p2, '$1$2');
 
   document.body.innerHTML = text;
-});
+})();
