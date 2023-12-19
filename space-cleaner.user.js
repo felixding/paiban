@@ -14,7 +14,7 @@
   var p2 = /([\u2E80-\u2FD5\u3190-\u319f\u3400-\u4DBF\u4E00-\u9FCC\uF900-\uFAAD])\s([a-zA-Z0-9])/g;
 
   var text = document.body.innerHTML;
-  text = text.replace(p1, '$1$2').replace(p2, '$1$2');
+  text = text.replace(/([\u4e00-\u9fa5])\s+([a-zA-Z0-9])|([a-zA-Z0-9])\s+([\u4e00-\u9fa5])/g, '$1$2$3$4');
 
   document.body.innerHTML = text;
 })();
