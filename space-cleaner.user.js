@@ -2,16 +2,7 @@
 // @name正确排版
 // @author          Ding Yu
 // @namespace       space-cleaner
-// @version         0.1
-// @match           *://*/*
-// @grant           none
-// @description删除中文和英文及数字间的空格，显示正确的排版。
-// ==/UserScript==
-// ==UserScript==
-// @name正确排版
-// @author          Ding Yu
-// @namespace       space-cleaner
-// @version         0.1
+// @version         0.2
 // @match           *://*/*
 // @grant           none
 // @description删除中文和英文及数字间的空格，显示正确的排版。
